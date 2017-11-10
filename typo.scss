@@ -1,0 +1,58 @@
+$base-font-family: 'EB Garamond';
+$base-font-size: 14px;
+$base-font-size-paragraph: 1.6em;
+
+
+body {
+  font: $base-font-size $base-font-family, serif;
+  font-weight: 400;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+}
+article {
+  h1, h2, h3, h4, h5, h6 {
+    font-variant-caps: small-caps;
+  }
+
+  h1 { font-size: 3.125em; }
+  h2 { font-size: 2.618em; }
+  h3 { font-size: 1.931em; }
+  h4 { font-size: 1.618; }
+  h5 { font-size: 1.194em; }
+  h6 { font-size: 1em; }
+
+  ul, ol {
+    font-size: 1.6em;
+    margin: 2em 0; 
+    padding: 0 
+  }
+
+  blockquote {
+    text-indent: -0.4em;
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0;
+    quotes: "\201C""\201D""\2018""\2019";
+
+    &:before {
+      margin: 0 -0.1em 0 0;
+      content: open-quote;
+    }
+  }
+
+  p:first-of-type:first-letter {
+    font-size: 4.00em;
+    padding: 0 .1em 0 0;
+    margin: 0;
+    float: left;
+    line-height: .9;
+  }
+
+  p { 
+    font-size: $base-font-size-paragraph;
+    line-height: 1.6em;
+    margin: 0;
+    hyphens: auto;
+  }
+  p + p { text-indent: 1em; }
+}

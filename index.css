@@ -1,0 +1,58 @@
+@charset "UTF-8";
+body {
+  font: 14px "EB Garamond", serif;
+  font-weight: 400;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures; }
+
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-variant-caps: small-caps; }
+
+article h1 {
+  font-size: 3.125em; }
+
+article h2 {
+  font-size: 2.618em; }
+
+article h3 {
+  font-size: 1.931em; }
+
+article h4 {
+  font-size: 1.618; }
+
+article h5 {
+  font-size: 1.194em; }
+
+article h6 {
+  font-size: 1em; }
+
+article ul, article ol {
+  font-size: 1.6em;
+  margin: 2em 0;
+  padding: 0; }
+
+article blockquote {
+  text-indent: -0.4em;
+  font-size: 1.6em;
+  margin: 0;
+  padding: 0;
+  quotes: "“" "”" "‘" "’"; }
+  article blockquote:before {
+    margin: 0 -0.1em 0 0;
+    content: open-quote; }
+
+article p:first-of-type:first-letter {
+  font-size: 4.00em;
+  padding: 0 .1em 0 0;
+  margin: 0;
+  float: left;
+  line-height: .9; }
+
+article p {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  margin: 0;
+  hyphens: auto; }
+
+article p + p {
+  text-indent: 1em; }
