@@ -2,7 +2,7 @@
 
 A tiny little typography framework that targets your article tags.
 
-![Typo](demo.png)
+![Typo](readme.png)
 
 **Changing the font?**
 
