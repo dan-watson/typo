@@ -3,7 +3,8 @@ body {
   font: 14px "EB Garamond", serif;
   font-weight: 400;
   font-kerning: normal;
-  font-variant-ligatures: common-ligatures; }
+  font-variant-ligatures: common-ligatures;
+  text-rendering: optimizeLegibility; }
 
 article h1, article h2, article h3, article h4, article h5, article h6 {
   font-variant-caps: small-caps; }
