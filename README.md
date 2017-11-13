@@ -2,6 +2,8 @@
 
 A tiny little typography framework that targets your article tags.
 
+[Demo](https://dan-watson-typo-demo.herokuapp.com/)
+
 ![Typo](readme.png)
 
 **Changing the font?**
