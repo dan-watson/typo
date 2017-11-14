@@ -54,6 +54,5 @@ article p {
   line-height: 1.6em;
   margin: 0;
   hyphens: auto; }
-
-article p + p {
-  text-indent: 1em; }
+  article p + p {
+    text-indent: 1em; }

@@ -51,9 +51,12 @@ article {
 
   p { 
     font-size: $base-font-size-paragraph;
-    line-height: 1.6em;
+    line-height: $base-font-size-paragraph;
     margin: 0;
     hyphens: auto;
+
+    + p {
+      text-indent: 1em;
+    }
   }
-  p + p { text-indent: 1em; }
 }
