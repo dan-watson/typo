@@ -1,6 +1,9 @@
-build:
-	npm install sass-composer
-serve:
-	sass-composer typo.scss -o index.css -w & python -m SimpleHTTPServer
 release:
-	sass-composer typo.scss -o index.css
+	docker run --rm \
+		-v $(PWD):$(PWD) \
+		-w $(PWD) \
+		processmaker4/docker-sass-compiler \
+		sass/typo.scss \
+		build/typo.css
+serve:
+	cd build; python3 -m http.server
